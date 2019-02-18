@@ -16,7 +16,7 @@ When clicking on image a modal will open.
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';   
 import CardGallery from 'react-card-image-gallery';
-class DemoCarousel extends Component {
+class DemoGallery extends Component {
   render() {        
     return (
       <div className="container">
@@ -32,7 +32,7 @@ class DemoCarousel extends Component {
     );
   }
 }
-ReactDOM.render(<DemoCarousel />, document.querySelector('.demo-carousel'));
+ReactDOM.render(<DemoGallery />, document.querySelector('.demo-gallery'));
 ```
 ### Demo
 https://codesandbox.io/s/m731718mkp
